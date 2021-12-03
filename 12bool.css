@@ -22,6 +22,15 @@
     flex-direction: row;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.cont-center{
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -41,67 +50,79 @@
 }
 
 .col-12{
-    flex-basis: 100%;
-    max-width: 100%;
+    flex-basis: calc(100% - 5px);
+    max-width: (100% - 5px);
 }
 
-.col-11{
-    flex-basis: calc(100% / 12 * 11);
-    max-width: calc(100% / 12 * 11);
+.col-11{ 
+    flex-basis: calc(100% / 12 * 11 - 5px);
+    max-width: calc(100% / 12 * 11 - 5px);
 }
 
 
 .col-10{
-    flex-basis: calc(100% / 12 * 10);
-    max-width: calc(100% / 12 * 10);
+    flex-basis: calc(100% / 12 * 10 - 5px);
+    max-width: calc(100% / 12 * 10 - 5px);
 }
 
 
 .col-9{
-    flex-basis: calc(100% / 12 * 9);
-    max-width: calc(100% / 12 * 9);
+    flex-basis: calc(100% / 12 * 9 - 5px);
+    max-width: calc(100% / 12 * 9 - 5px);
 }
 
 
 .col-8{
-    flex-basis: calc(100% / 12 * 8);
-    max-width: calc(100% / 12 * 8);
+    flex-basis: calc(100% / 12 * 8 - 5px);
+    max-width: calc(100% / 12 * 8 - 5px);
 }
 
 .col-7{
-    flex-basis: calc(100% / 12 * 7);
-    max-width: calc(100% / 12 * 7);
+    flex-basis: calc(100% / 12 * 7 - 5px);
+    max-width: calc(100% / 12 * 7 - 5px);
 }
 
 .col-6{
-    flex-basis: calc(100% / 12 * 6);
-    max-width: calc(100% / 12 * 6);
+    flex-basis: calc(100% / 12 * 6 - 5px);
+    max-width: calc(100% / 12 * 6 - 5px);
 }
 
 .col-5{
-    flex-basis: calc(100% / 12 * 5);
-    max-width: calc(100% / 12 * 5);
+    flex-basis: calc(100% / 12 * 5 - 5px);
+    max-width: calc(100% / 12 * 5 - 5px);
 }
 
 .col-4{
-    flex-basis: calc(100% / 12 * 4);
-    max-width: calc(100% / 12 * 4);
+    flex-basis: calc(100% / 12 * 4 - 5px);
+    max-width: calc(100% / 12 * 4 - 5px);
 }
 
 .col-3{
-    flex-basis: calc(100% / 12 * 3);
-    max-width: calc(100% / 12 * 3);
+    flex-basis: calc(100% / 12 * 3 - 5px);
+    max-width: calc(100% / 12 * 3 - 5px);
 }
 
 .col-2{
-    flex-basis: calc(100% / 12 * 2);
-    max-width: calc(100% / 12 * 2);
+    flex-basis: calc(100% / 12 * 2 - 5px);
+    max-width: calc(100% / 12 * 2 - 5px);
 }
 
 .col-1{
-    flex-basis: calc(100% / 12 * 1);
-    max-width: calc(100% / 12 * 1);
+    flex-basis: calc(100% / 12 * 1 - 5px);
+    max-width: calc(100% / 12 * 1 - 5px);
 }
+
+
+
+/***** NESTED COL  *****/
+
+#nested{
+    height: 60px;
+    /* padding: 10px; */
+    background-color: forestgreen;
+}
+
+
 
 
 
@@ -110,3 +131,5 @@
 .offset-1{
     margin-left: calc(100% / 1);
 }
+
+
