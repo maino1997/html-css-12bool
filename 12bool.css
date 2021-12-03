@@ -33,6 +33,17 @@
     align-items: center;
 }
 
+.just-start{
+    justify-content: start;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+.just-end{
+    justify-content: end;
+}
 
 
 
