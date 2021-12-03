@@ -49,6 +49,10 @@
     justify-content: end;
 }
 
+.just-around{
+    justify-content: space-around;
+}
+
 .just-bet{
     justify-content: space-between;
 }
