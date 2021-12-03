@@ -4,6 +4,12 @@
     border: 1px solid white;
 }
 
+.col-big{
+    background-color: dodgerblue;
+    height: 120px;
+    border: 1px solid white;
+}
+
 
 .row{
     width: 100%;
