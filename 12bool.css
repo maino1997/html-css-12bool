@@ -188,5 +188,25 @@
 
 
 
+/***** MEDIA QUERY  *****/
+
+@media screen and (max-width: 992px){
+    .top .col-1{
+        flex-basis: calc(100% / 12 * 2);
+        max-width: calc(100% / 12 * 2);
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+}
+
+
 
 
