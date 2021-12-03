@@ -1,8 +1,9 @@
 .col{
     background-color: dodgerblue;
     height: 60px;
-    margin: 2.5px;
+    border: 1px solid white;
 }
+
 
 .row{
     width: 100%;
