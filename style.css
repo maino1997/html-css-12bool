@@ -1,0 +1,18 @@
+.col-6{
+    height: 80px;
+    background-color: dodgerblue;
+}
+
+.col-11{
+    height: 80px;
+    background-color: red;
+}
+
+.col-1{
+    height: 80px;
+    background-color: forestgreen;
+}
+
+.row{
+    padding: 0 10px;
+}
