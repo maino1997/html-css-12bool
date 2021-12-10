@@ -226,7 +226,7 @@
 /***** MEDIA QUERY  *****/
 
 @media screen and (max-width: 992px){
-    .top .col-1{
+    .top .col-sm-1{
         flex-basis: calc(100% / 12 * 2);
         max-width: calc(100% / 12 * 2);
     }
